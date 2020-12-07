@@ -128,7 +128,6 @@ figure{
   background-color: #f4fbff;
 }
 .event image{
-
   height: 200px;
   object-fit: cover;
   }
@@ -183,4 +182,72 @@ figure{
   left: 5px;
   top: 5px;
   color: white;
+}
+
+
+
+/* celulares */
+@media screen and (max-width: 400px){
+  .event a{
+    margin: 4px;
+    border: 1px solid;
+    padding: 2px 8px;
+    text-decoration: none;
+    color: #313131;
+    border-radius: 2px;
+  }
+  .header a{
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    height: inherit;
+    padding: 0px 4px;
+  }
+  .footer a{
+    color: #000000;
+    padding: 0 4 px;
+  }
+  .logo img{
+    height: 20px;
+    vertical-align: middle;
+  }
+  .header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background-color:#31313131;
+    color: white;
+    height: 40px;
+  }
+  h2{
+    color:#1b2127;
+    text-transform: uppercase;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+    margin-bottom: 20px;
+  }
+  .event-detail{
+    margin:5px 10px;
+    margin-top: -20px;
+    background-color: rgba(255, 255, 255, 0);
+    position: relative;
+    padding: 10px;
+    text-align: center;
+  }
+  .event p{
+    font-size:10px; 
+    text-align: left;
+  }
+  .event image{
+    width: 90px;
+    height: 80px;
+    object-fit: cover;
+    }
+    .texto_footer{
+      font-size: 15px;
+      margin: 5px 5px;
+    }
 }
