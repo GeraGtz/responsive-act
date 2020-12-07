@@ -226,8 +226,14 @@ figure{
     text-transform: uppercase;
     font-family: 'Source Sans Pro', sans-serif;
     font-weight: bold;
-    font-size: 15px;
+    font-size: 10px;
     margin-bottom: 20px;
+  }
+  .menu ul li{
+    margin: 0 8px;
+    height: inherit;
+    display: flex;
+    align-items: center;
   }
   .event-detail{
     margin:5px 10px;
@@ -245,9 +251,9 @@ figure{
     width: 90px;
     height: 80px;
     object-fit: cover;
-    }
-    .texto_footer{
-      font-size: 15px;
-      margin: 5px 5px;
-    }
+  }
+  .texto_footer{
+    font-size: 10px;      
+    margin: 5px 5px;
+  }
 }
